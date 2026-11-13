@@ -50,7 +50,7 @@ Abre [http://127.0.0.1:5000](http://127.0.0.1:5000). La app ofrece Inicio, Compr
 ## Pruebas
 
 ```bash
-python -m unittest discover -s tests -v
+python -m unittest -v test_app
 ```
 
 Los casos incluyen el descuento de compra y el caso límite sin descuento, salario con y sin horas extra, conversión de temperatura y las siete páginas.
@@ -62,7 +62,7 @@ app.py
 templates/       base.html, index.html, calculadoras y páginas informativas
 static/css/      Estilos
 static/img/      Ilustraciones SVG locales
-tests/           Pruebas automatizadas
+test_app.py      Pruebas automatizadas
 examen/          Explicación técnica y capturas de ejecución
 ```
 

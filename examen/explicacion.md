@@ -39,6 +39,7 @@ Las imágenes de cada pantalla y de los resultados se guardan en [`capturas/`](.
 
 | Pantalla / caso | Evidencia |
 |---|---|
+| Navegación común | [navegacion.png](./capturas/navegacion.png) |
 | Inicio y carrusel | [inicio.png](./capturas/inicio.png) |
 | Compra con descuento | [calculo_compra.png](./capturas/calculo_compra.png) |
 | Compra sin descuento | [compra_sin_descuento.png](./capturas/compra_sin_descuento.png) |
