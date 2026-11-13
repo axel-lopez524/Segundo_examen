@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portal de Servicios: soluciones digitales, empresariales y calculadoras de apoyo.">
-  <title>{{ title }} | Portal de Servicios</title>
+  <meta name="description" content="Tequila Barullo: identidad, cultura del agave y herramientas informativas para conocer la marca.">
+  <meta name="theme-color" content="#142d25">
+  <title>{{ title }} | Tequila Barullo</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark site-nav">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center gap-2" href="{{ url_for('inicio') }}">
-        <span class="brand-mark">P</span><span>portal<span class="brand-light">.</span></span>
+        <span class="brand-mark">B</span><span>TEQUILA <span class="brand-light">BARULLO</span></span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
               aria-controls="mainNav" aria-expanded="false" aria-label="Abrir navegación">
@@ -34,7 +35,7 @@
                href="{{ url_for(endpoint) }}">{{ label }}</a>
           </li>
           {% endfor %}
-          <li class="nav-item ms-lg-2"><a class="nav-cta" href="{{ url_for('servicios') }}">Explorar <span aria-hidden="true">↗</span></a></li>
+          <li class="nav-item ms-lg-2"><a class="nav-cta" href="{{ url_for('empresa') }}">Conócenos <span aria-hidden="true">↗</span></a></li>
         </ul>
       </div>
     </div>
@@ -46,9 +47,9 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <a class="footer-brand" href="{{ url_for('inicio') }}"><span class="brand-mark">P</span> portal.</a>
-      <p>Ideas claras. Soluciones que avanzan.</p>
-      <span>© 2026 Portal de Servicios</span>
+      <a class="footer-brand" href="{{ url_for('inicio') }}"><span class="brand-mark">B</span> Tequila Barullo</a>
+      <p>Disfruta con responsabilidad. Prohibida la venta a menores de 18 años.</p>
+      <span>© 2026 Tequila Barullo · Sitio conceptual</span>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

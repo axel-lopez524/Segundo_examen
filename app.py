@@ -5,8 +5,6 @@ from flask import Flask, render_template, request
 
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = "portal-servicios-local"
-
 CENTAVO = Decimal("0.01")
 
 

@@ -1,13 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 290" role="img" aria-labelledby="title">
-  <title id="title">Asesoría práctica y acompañamiento</title>
-  <rect x="38" y="23" width="384" height="244" rx="22" fill="#fbebdf"/>
-  <circle cx="165" cy="102" r="34" fill="#ee806b"/>
-  <circle cx="291" cy="102" r="34" fill="#f0bf68"/>
-  <path d="M115 202c5-42 21-63 50-63s45 21 50 63" fill="#218c7b"/>
-  <path d="M240 202c5-42 21-63 51-63s45 21 50 63" fill="#163b4b"/>
-  <rect x="199" y="164" width="62" height="50" rx="11" fill="#fffdf7"/>
-  <path d="M212 180h36M212 192h28" stroke="#ceddd6" stroke-linecap="round" stroke-width="6"/>
-  <path d="M116 66c14-25 43-34 67-21M277 43c22-10 48-5 64 12" fill="none" stroke="#218c7b" stroke-linecap="round" stroke-width="6"/>
-  <path d="M215 79l6 13 14 2-10 9 3 14-13-7-12 7 3-14-10-9 14-2z" fill="#45c3ad"/>
-  <circle cx="91" cy="215" r="7" fill="#f0bf68"/><circle cx="375" cy="71" r="8" fill="#45c3ad"/>
+  <title id="title">Mensaje de consumo responsable</title>
+  <rect x="38" y="23" width="384" height="244" rx="22" fill="#e9eddc"/>
+  <circle cx="230" cy="139" r="83" fill="#1b382e"/>
+  <path d="M190 92h80v18h-80zM202 110h56v85c0 9-7 16-16 16h-24c-9 0-16-7-16-16z" fill="#d3ae68"/>
+  <path d="M211 143h38v38h-38z" fill="#fbf7ed"/>
+  <path d="M220 153h20v3h-20zM220 162h20v3h-20z" fill="#647448"/>
+  <path d="M98 116c16-16 37-21 58-15M304 98c23-7 45 1 59 19" fill="none" stroke="#a65337" stroke-linecap="round" stroke-width="7"/>
+  <path d="M103 186c15 15 34 20 54 14M303 200c23 7 46-1 60-19" fill="none" stroke="#647448" stroke-linecap="round" stroke-width="7"/>
+  <circle cx="104" cy="78" r="7" fill="#d3ae68"/><circle cx="358" cy="221" r="8" fill="#a65337"/>
 </svg>

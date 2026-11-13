@@ -1,13 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 290" role="img" aria-labelledby="title">
-  <title id="title">Soluciones web</title>
-  <rect x="38" y="23" width="384" height="244" rx="22" fill="#e8eaf7"/>
-  <rect x="99" y="57" width="263" height="180" rx="13" fill="#fffdf7"/>
-  <path d="M99 77a13 13 0 0 1 13-13h237a13 13 0 0 1 13 13v16H99z" fill="#163b4b"/>
-  <circle cx="116" cy="79" r="4" fill="#ee806b"/><circle cx="131" cy="79" r="4" fill="#f0bf68"/><circle cx="146" cy="79" r="4" fill="#45c3ad"/>
-  <rect x="118" y="112" width="92" height="103" rx="9" fill="#dff1e9"/>
-  <circle cx="164" cy="148" r="20" fill="#45c3ad"/><path d="M140 194c4-17 13-25 24-25s20 8 24 25" fill="#218c7b"/>
-  <path d="M230 119h98M230 139h81" stroke="#c7d2d2" stroke-linecap="round" stroke-width="8"/>
-  <rect x="230" y="161" width="100" height="35" rx="8" fill="#218c7b"/>
-  <path d="M249 178h62" stroke="#fff" stroke-linecap="round" stroke-width="6"/>
-  <path d="M75 199h25M362 115h27M359 175h20" stroke="#ee806b" stroke-linecap="round" stroke-width="7"/>
+  <title id="title">Botella conceptual de Tequila Barullo</title>
+  <rect x="38" y="23" width="384" height="244" rx="22" fill="#f4ead1"/>
+  <circle cx="348" cy="78" r="38" fill="#d3ae68"/>
+  <path d="M198 58h64v30l18 25v116c0 15-12 27-27 27h-46c-15 0-27-12-27-27V113l18-25z" fill="#647448"/>
+  <path d="M207 58h46V38h-46z" fill="#a65337"/>
+  <path d="M190 148h80v59h-80z" fill="#fbf7ed"/>
+  <path d="M201 161h58v4h-58zM201 172h58v4h-58z" fill="#b9a875"/>
+  <text x="230" y="194" fill="#1b382e" font-family="Georgia,serif" font-size="13" font-weight="700" text-anchor="middle">BARULLO</text>
+  <path d="M101 200c-3-45-45-67-71-75 24 28 35 55 36 78-21-40-52-47-70-48 22 20 40 42 43 63 6 5 13 8 22 9h55c8-1 15-4 21-9 3-21 21-43 43-63-18 1-49 8-70 48 1-23 12-50 36-78-26 8-68 30-70 75z" fill="#647448" transform="translate(255 5) scale(.8)"/>
 </svg>

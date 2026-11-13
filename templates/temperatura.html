@@ -4,7 +4,7 @@
   <div class="container">
     <a class="back-link" href="{{ url_for('inicio') }}">← Inicio</a>
     <div class="row align-items-end gy-4">
-      <div class="col-lg-7"><span class="eyebrow dark-eyebrow">CALCULADORA 03</span><h1>Temperatura <span class="heading-accent">universal.</span></h1><p class="page-lead">Convierte grados Celsius a Fahrenheit y Kelvin.</p></div>
+      <div class="col-lg-7"><span class="eyebrow dark-eyebrow">CALCULADORA 03 · TEQUILA BARULLO</span><h1>Conversor de <span class="heading-accent">temperatura.</span></h1><p class="page-lead">Convierte grados Celsius a Fahrenheit y Kelvin con esta herramienta informativa.</p></div>
       <div class="col-lg-5 calculator-aside"><span class="aside-icon">°</span><p>Una sola medida, tres formas de entender el <strong>calor y el frío</strong>.</p></div>
     </div>
   </div>
@@ -14,7 +14,7 @@
     <div class="row justify-content-center gy-4">
       <div class="col-lg-6">
         <form class="calculator-card" method="post" action="{{ url_for('temperatura') }}">
-          <div class="card-heading"><span class="step-number">03</span><div><h2>Temperatura de origen</h2><p>Escribe el valor en grados Celsius.</p></div></div>
+          <div class="card-heading"><span class="step-number">03</span><div><h2>Conversión de temperatura</h2><p>Escribe el valor en grados Celsius.</p></div></div>
           {% if error %}<div class="alert alert-danger" role="alert">{{ error }}</div>{% endif %}
           <label for="celsius" class="form-label">Grados Celsius</label>
           <div class="input-group input-group-lg"><input class="form-control" id="celsius" name="celsius" type="number" step="any" value="{{ form.celsius }}" placeholder="Ej. 25" required><span class="input-group-text">°C</span></div>
@@ -32,7 +32,7 @@
           <p class="result-footnote">El resultado se convirtió desde el valor que capturaste.</p>
         </section>
         {% else %}
-        <aside class="tip-card"><span class="tip-symbol">✦</span><h3>Otra escala, la misma temperatura.</h3><p>Convierte cualquier valor válido de Celsius. El resultado se muestra en Fahrenheit y Kelvin.</p><div class="tip-rule"></div><span class="tip-label">EJEMPLO</span><p class="tip-example">25 °C = 77 °F = 298.15 K</p></aside>
+        <aside class="tip-card"><span class="tip-symbol">✦</span><h3>Una medida, distintas escalas.</h3><p>Consulta conversiones de temperatura como referencia general; no es una recomendación de servicio ni conservación.</p><div class="tip-rule"></div><span class="tip-label">EJEMPLO ACADÉMICO</span><p class="tip-example">25 °C = 77 °F = 298.15 K</p></aside>
         {% endif %}
       </div>
     </div>

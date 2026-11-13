@@ -4,7 +4,7 @@
   <div class="container">
     <a class="back-link" href="{{ url_for('inicio') }}">← Inicio</a>
     <div class="row align-items-end gy-4">
-      <div class="col-lg-7"><span class="eyebrow dark-eyebrow">CALCULADORA 02</span><h1>Salario <span class="heading-accent">justo.</span></h1><p class="page-lead">Calcula el pago semanal tomando en cuenta las horas extra.</p></div>
+      <div class="col-lg-7"><span class="eyebrow dark-eyebrow">CALCULADORA 02 · TEQUILA BARULLO</span><h1>Pago <span class="heading-accent">semanal.</span></h1><p class="page-lead">Herramienta académica para estimar el pago semanal de un equipo de trabajo.</p></div>
       <div class="col-lg-5 calculator-aside"><span class="aside-icon">40</span><p>Las primeras <strong>40 horas</strong> son normales. Cada hora adicional se paga al doble.</p></div>
     </div>
   </div>
@@ -14,7 +14,7 @@
     <div class="row justify-content-center gy-4">
       <div class="col-lg-6">
         <form class="calculator-card" method="post" action="{{ url_for('salario') }}">
-          <div class="card-heading"><span class="step-number">02</span><div><h2>Datos de la semana</h2><p>Indica tus horas y pago base.</p></div></div>
+          <div class="card-heading"><span class="step-number">02</span><div><h2>Datos de la semana</h2><p>Indica horas trabajadas y pago base.</p></div></div>
           {% if error %}<div class="alert alert-danger" role="alert">{{ error }}</div>{% endif %}
           <label for="horas" class="form-label">Horas trabajadas</label>
           <input class="form-control form-control-lg" id="horas" name="horas" type="number" min="0" step="0.01" value="{{ form.horas }}" placeholder="Ej. 45" required>
@@ -31,10 +31,10 @@
           <div class="result-row"><span>Horas normales</span><strong>{{ result.horas_normales }} h</strong></div>
           <div class="result-row"><span>Horas extra <small>(al doble)</small></span><strong>{{ result.horas_extra }} h</strong></div>
           <div class="result-total"><span>Pago total</span><strong>${{ result.total }}</strong></div>
-          <p class="result-footnote">Las horas extra se calcularon a 2× el pago por hora.</p>
+          <p class="result-footnote">Las horas extra se calcularon a 2× el pago por hora. Es un ejemplo de la práctica, no una nómina oficial.</p>
         </section>
         {% else %}
-        <aside class="tip-card"><span class="tip-symbol">✦</span><h3>Tu tiempo también cuenta.</h3><p>El cálculo separa las horas normales de las adicionales y remunera estas últimas al doble.</p><div class="tip-rule"></div><span class="tip-label">EJEMPLO</span><p class="tip-example">45 horas × $100.00 = $5,000.00</p></aside>
+        <aside class="tip-card"><span class="tip-symbol">✦</span><h3>Una herramienta para hacer cuentas.</h3><p>El cálculo separa las horas normales de las adicionales y remunera estas últimas al doble.</p><div class="tip-rule"></div><span class="tip-label">EJEMPLO ACADÉMICO</span><p class="tip-example">45 horas × $100.00 = $5,000.00</p></aside>
         {% endif %}
       </div>
     </div>

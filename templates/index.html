@@ -4,53 +4,53 @@
   <div class="container">
     <div class="row align-items-center gy-5">
       <div class="col-lg-6 hero-copy">
-        <span class="eyebrow"><span class="eyebrow-dot"></span> UN PORTAL, NUEVAS POSIBILIDADES</span>
-        <h1>Tu próximo paso<br>empieza <span>aquí.</span></h1>
-        <p class="hero-lead">Servicios pensados para simplificar el trabajo y ayudarte a avanzar con confianza.</p>
+        <span class="eyebrow"><span class="eyebrow-dot"></span> TEQUILA BARULLO · IDENTIDAD CON CARÁCTER</span>
+        <h1>Un espíritu<br>que arma <span>barullo.</span></h1>
+        <p class="hero-lead">Un espacio para conocer la identidad de Tequila Barullo, explorar la cultura del agave y consultar herramientas informativas.</p>
         <div class="d-flex flex-wrap gap-3 mt-4">
-          <a class="btn btn-primary-custom" href="{{ url_for('servicios') }}">Conoce los servicios <span aria-hidden="true">→</span></a>
-          <a class="btn btn-outline-custom" href="{{ url_for('empresa') }}">Quiénes somos</a>
+          <a class="btn btn-primary-custom" href="{{ url_for('empresa') }}">Conoce la marca <span aria-hidden="true">→</span></a>
+          <a class="btn btn-outline-custom" href="{{ url_for('compra') }}">Calcula tu compra</a>
         </div>
-        <div class="hero-note"><span class="note-line"></span> Acompañamiento práctico, de principio a fin</div>
+        <div class="hero-note"><span class="note-line"></span> Solo para mayores de 18 · Disfruta con responsabilidad</div>
       </div>
       <div class="col-lg-6">
         <div class="hero-art-wrap">
           <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
-          <img class="hero-art" src="{{ url_for('static', filename='img/hero.svg') }}" alt="Ilustración de una idea que se transforma en un proyecto">
-          <div class="floating-card card-top"><span class="mini-icon mint">✳</span><div><strong>Ideas en marcha</strong><small>Progreso que se nota</small></div></div>
-          <div class="floating-card card-bottom"><span class="mini-icon gold">↗</span><div><strong>Hecho para ti</strong><small>Soluciones con propósito</small></div></div>
+          <img class="hero-art" src="{{ url_for('static', filename='img/hero.svg') }}" alt="Ilustración conceptual de una botella de Tequila Barullo entre hojas de agave">
+          <div class="floating-card card-top"><span class="mini-icon mint">✳</span><div><strong>Raíces mexicanas</strong><small>Una cultura que inspira</small></div></div>
+          <div class="floating-card card-bottom"><span class="mini-icon gold">B</span><div><strong>Tequila Barullo</strong><small>Carácter en cada detalle</small></div></div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="ticker-strip" aria-label="Servicios">
-  <div class="container ticker-content"><span>ESTRATEGIA</span><i></i><span>TECNOLOGÍA</span><i></i><span>CRECIMIENTO</span><i></i><span>PERSONAS</span></div>
+<section class="ticker-strip" aria-label="La marca">
+  <div class="container ticker-content"><span>AGAVE</span><i></i><span>IDENTIDAD</span><i></i><span>CARÁCTER</span><i></i><span>RESPONSABILIDAD</span></div>
 </section>
 
 <section class="section-pad home-services">
   <div class="container">
     <div class="section-heading">
-      <div><span class="eyebrow dark-eyebrow">LO QUE HACEMOS</span><h2>Herramientas para<br><span class="heading-accent">hacerlo posible.</span></h2></div>
-      <a href="{{ url_for('servicios') }}" class="text-link">Ver todos los servicios <span aria-hidden="true">→</span></a>
+      <div><span class="eyebrow dark-eyebrow">UNIVERSO BARULLO</span><h2>Una marca con<br><span class="heading-accent">mucho que contar.</span></h2></div>
+      <a href="{{ url_for('servicios') }}" class="text-link">Explorar la marca <span aria-hidden="true">→</span></a>
     </div>
     <div id="serviceCarousel" class="carousel slide service-carousel" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#serviceCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Servicio 1"></button>
-        <button type="button" data-bs-target="#serviceCarousel" data-bs-slide-to="1" aria-label="Servicio 2"></button>
-        <button type="button" data-bs-target="#serviceCarousel" data-bs-slide-to="2" aria-label="Servicio 3"></button>
+        <button type="button" data-bs-target="#serviceCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Cultura del agave"></button>
+        <button type="button" data-bs-target="#serviceCarousel" data-bs-slide-to="1" aria-label="Identidad Barullo"></button>
+        <button type="button" data-bs-target="#serviceCarousel" data-bs-slide-to="2" aria-label="Disfrute responsable"></button>
       </div>
       <div class="carousel-inner">
         {% for image, number, title, caption in [
-          ('servicio-digital.svg', '01 / ESTRATEGIA', 'Estrategia digital', 'Dale dirección a tus ideas y transforma objetivos en un plan de acción.'),
-          ('servicio-web.svg', '02 / TECNOLOGÍA', 'Soluciones web', 'Experiencias digitales útiles, accesibles y hechas para las personas.'),
-          ('servicio-asesoria.svg', '03 / ACOMPAÑAMIENTO', 'Asesoría práctica', 'Decisiones más claras con orientación cercana y enfocada en resultados.')
+          ('servicio-digital.svg', '01 / ORIGEN', 'Cultura del agave', 'Una mirada a la planta que forma parte de la identidad tequilera.'),
+          ('servicio-web.svg', '02 / IDENTIDAD', 'El universo Barullo', 'Colores, símbolos y personalidad alrededor del nombre Tequila Barullo.'),
+          ('servicio-asesoria.svg', '03 / RESPONSABILIDAD', 'Disfrute consciente', 'La cultura también implica informarse y consumir con responsabilidad.')
         ] %}
         <div class="carousel-item {% if loop.first %}active{% endif %}">
           <div class="carousel-panel">
             <img src="{{ url_for('static', filename='img/' ~ image) }}" alt="{{ title }}">
-            <div class="carousel-copy"><span class="eyebrow">{{ number }}</span><h3>{{ title }}</h3><p>{{ caption }}</p><a class="text-link light-link" href="{{ url_for('servicios') }}">Descubre cómo <span aria-hidden="true">→</span></a></div>
+            <div class="carousel-copy"><span class="eyebrow">{{ number }}</span><h3>{{ title }}</h3><p>{{ caption }}</p><a class="text-link light-link" href="{{ url_for('servicios') }}">Descubre más <span aria-hidden="true">→</span></a></div>
           </div>
         </div>
         {% endfor %}
@@ -62,6 +62,7 @@
 </section>
 
 <section class="home-cta">
-  <div class="container cta-inner"><div><span class="eyebrow">¿LISTO PARA EMPEZAR?</span><h2>Construyamos algo<br>bueno juntos.</h2></div><a href="{{ url_for('contacto') }}" class="btn btn-light-custom">Hablemos <span aria-hidden="true">↗</span></a></div>
+  <div class="container cta-inner"><div><span class="eyebrow">CONOCE TEQUILA BARULLO</span><h2>Tradición, carácter<br>y responsabilidad.</h2></div><a href="{{ url_for('contacto') }}" class="btn btn-light-custom">Información de contacto <span aria-hidden="true">↗</span></a></div>
 </section>
+<p class="concept-note">Sitio conceptual académico. La información de productos y contacto debe confirmarse con los canales oficiales de la marca.</p>
 {% endblock %}

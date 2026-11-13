@@ -1,11 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 290" role="img" aria-labelledby="title">
-  <title id="title">Estrategia digital</title>
-  <rect x="38" y="23" width="384" height="244" rx="22" fill="#dff1e9"/>
-  <circle cx="336" cy="81" r="40" fill="#f0bf68"/>
-  <rect x="91" y="72" width="221" height="139" rx="12" fill="#fffdf7"/>
-  <path d="M115 105h105M115 124h72" stroke="#cadbd4" stroke-linecap="round" stroke-width="9"/>
-  <path d="M126 182l44-37 34 21 55-62" fill="none" stroke="#218c7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="11"/>
-  <circle cx="125" cy="181" r="8" fill="#ee806b"/><circle cx="171" cy="144" r="8" fill="#ee806b"/><circle cx="204" cy="165" r="8" fill="#ee806b"/><circle cx="258" cy="104" r="8" fill="#ee806b"/>
-  <path d="M329 158l11 25 27 3-20 18 6 26-24-14-23 14 6-26-20-18 27-3z" fill="#45c3ad"/>
-  <circle cx="76" cy="70" r="8" fill="#ee806b"/><circle cx="368" cy="223" r="6" fill="#218c7b"/>
+  <title id="title">Agave como inspiración de la cultura tequilera</title>
+  <rect x="38" y="23" width="384" height="244" rx="22" fill="#e9eddc"/>
+  <circle cx="336" cy="81" r="40" fill="#ead18d"/>
+  <path d="M229 235c-4-76-79-111-123-123 40 47 58 92 60 130-35-66-86-78-116-80 37 34 67 69 72 104 10 8 22 13 36 14h92c14-1 26-6 36-14 5-35 35-70 72-104-30 2-81 14-116 80 2-38 20-83 60-130-44 12-119 47-123 123z" fill="#647448"/>
+  <path d="M225 95h8v125h-8z" fill="#a65337"/>
+  <circle cx="79" cy="69" r="8" fill="#a65337"/><circle cx="368" cy="223" r="6" fill="#647448"/>
 </svg>
