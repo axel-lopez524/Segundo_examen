@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 290" role="img" aria-labelledby="title">
+  <title id="title">Estrategia digital</title>
+  <rect x="38" y="23" width="384" height="244" rx="22" fill="#dff1e9"/>
+  <circle cx="336" cy="81" r="40" fill="#f0bf68"/>
+  <rect x="91" y="72" width="221" height="139" rx="12" fill="#fffdf7"/>
+  <path d="M115 105h105M115 124h72" stroke="#cadbd4" stroke-linecap="round" stroke-width="9"/>
+  <path d="M126 182l44-37 34 21 55-62" fill="none" stroke="#218c7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="11"/>
+  <circle cx="125" cy="181" r="8" fill="#ee806b"/><circle cx="171" cy="144" r="8" fill="#ee806b"/><circle cx="204" cy="165" r="8" fill="#ee806b"/><circle cx="258" cy="104" r="8" fill="#ee806b"/>
+  <path d="M329 158l11 25 27 3-20 18 6 26-24-14-23 14 6-26-20-18 27-3z" fill="#45c3ad"/>
+  <circle cx="76" cy="70" r="8" fill="#ee806b"/><circle cx="368" cy="223" r="6" fill="#218c7b"/>
+</svg>

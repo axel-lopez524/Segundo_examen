@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-hero info-hero services-hero">
+  <div class="container"><span class="eyebrow dark-eyebrow">NUESTROS SERVICIOS</span><h1>Ideas que se vuelven<br><span class="heading-accent">acción.</span></h1><p class="page-lead">Acompañamos cada proyecto con herramientas prácticas, tecnología y una mirada estratégica.</p></div>
+</section>
+<section class="section-pad">
+  <div class="container">
+    <div class="row g-4">
+      {% for image, number, title, description, tag in [
+        ('servicio-digital.svg', '01', 'Estrategia digital', 'Aterrizamos tus objetivos en un plan claro, con prioridades y pasos que puedes llevar a la práctica.', 'Planeación'),
+        ('servicio-web.svg', '02', 'Soluciones web', 'Diseñamos experiencias web sencillas y funcionales para conectar tu idea con las personas.', 'Tecnología'),
+        ('servicio-asesoria.svg', '03', 'Asesoría práctica', 'Te acompañamos para tomar mejores decisiones, resolver dudas y mantener tu proyecto en movimiento.', 'Acompañamiento')
+      ] %}
+      <div class="col-md-6 col-lg-4">
+        <article class="service-card">
+          <div class="service-image"><img src="{{ url_for('static', filename='img/' ~ image) }}" alt="Ilustración de {{ title }}"><span class="service-number">{{ number }}</span></div>
+          <div class="service-card-body"><span class="service-tag">{{ tag }}</span><h2>{{ title }}</h2><p>{{ description }}</p><a class="text-link" href="{{ url_for('contacto') }}">Conversemos <span aria-hidden="true">→</span></a></div>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="simple-cta"><div class="container d-flex flex-wrap justify-content-between align-items-center gap-3"><h2>El siguiente paso puede ser ahora.</h2><a href="{{ url_for('contacto') }}" class="btn btn-primary-custom">Hablemos <span aria-hidden="true">↗</span></a></div></section>
+{% endblock %}

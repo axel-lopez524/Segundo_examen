@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-hero calculator-hero">
+  <div class="container">
+    <a class="back-link" href="{{ url_for('inicio') }}">← Inicio</a>
+    <div class="row align-items-end gy-4">
+      <div class="col-lg-7"><span class="eyebrow dark-eyebrow">CALCULADORA 02</span><h1>Salario <span class="heading-accent">justo.</span></h1><p class="page-lead">Calcula el pago semanal tomando en cuenta las horas extra.</p></div>
+      <div class="col-lg-5 calculator-aside"><span class="aside-icon">40</span><p>Las primeras <strong>40 horas</strong> son normales. Cada hora adicional se paga al doble.</p></div>
+    </div>
+  </div>
+</section>
+<section class="section-pad calculator-section">
+  <div class="container">
+    <div class="row justify-content-center gy-4">
+      <div class="col-lg-6">
+        <form class="calculator-card" method="post" action="{{ url_for('salario') }}">
+          <div class="card-heading"><span class="step-number">02</span><div><h2>Datos de la semana</h2><p>Indica tus horas y pago base.</p></div></div>
+          {% if error %}<div class="alert alert-danger" role="alert">{{ error }}</div>{% endif %}
+          <label for="horas" class="form-label">Horas trabajadas</label>
+          <input class="form-control form-control-lg" id="horas" name="horas" type="number" min="0" step="0.01" value="{{ form.horas }}" placeholder="Ej. 45" required>
+          <label for="pago_hora" class="form-label mt-3">Pago por hora <span class="label-detail">(MXN)</span></label>
+          <div class="input-group input-group-lg"><span class="input-group-text">$</span><input class="form-control" id="pago_hora" name="pago_hora" type="number" min="0" step="0.01" value="{{ form.pago_hora }}" placeholder="Ej. 100.00" required></div>
+          <button type="submit" class="btn btn-primary-custom w-100 mt-4">Calcular salario <span aria-hidden="true">→</span></button>
+        </form>
+      </div>
+      <div class="col-lg-5">
+        {% if result %}
+        <section class="result-card" aria-live="polite">
+          <span class="eyebrow">RESUMEN SEMANAL</span><h2>Tu resultado</h2>
+          <p class="result-caption">{{ result.horas }} horas a ${{ result.pago_hora }} por hora</p>
+          <div class="result-row"><span>Horas normales</span><strong>{{ result.horas_normales }} h</strong></div>
+          <div class="result-row"><span>Horas extra <small>(al doble)</small></span><strong>{{ result.horas_extra }} h</strong></div>
+          <div class="result-total"><span>Pago total</span><strong>${{ result.total }}</strong></div>
+          <p class="result-footnote">Las horas extra se calcularon a 2× el pago por hora.</p>
+        </section>
+        {% else %}
+        <aside class="tip-card"><span class="tip-symbol">✦</span><h3>Tu tiempo también cuenta.</h3><p>El cálculo separa las horas normales de las adicionales y remunera estas últimas al doble.</p><div class="tip-rule"></div><span class="tip-label">EJEMPLO</span><p class="tip-example">45 horas × $100.00 = $5,000.00</p></aside>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

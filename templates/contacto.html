@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-hero info-hero contact-hero">
+  <div class="container"><span class="eyebrow dark-eyebrow">ESTAMOS PARA AYUDAR</span><h1>Todo comienza<br>con un <span class="heading-accent">hola.</span></h1><p class="page-lead">Cuéntanos qué tienes en mente. Nos encantará conocer tu proyecto y explorar cómo podemos ayudarte.</p></div>
+</section>
+<section class="section-pad contact-section">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-7"><div class="contact-card"><span class="eyebrow dark-eyebrow">HABLEMOS</span><h2 class="content-title">Aquí encontrarás al equipo.</h2><p class="body-copy">Nuestro equipo ficticio atiende de lunes a viernes, de 9:00 a 17:00 h. Elige el canal que te resulte más cómodo.</p>
+        <div class="contact-detail"><span class="contact-icon">✉</span><div><span class="contact-label">CORREO ELECTRÓNICO</span><a href="mailto:hola@portalservicios.example">hola@portalservicios.example</a></div></div>
+        <div class="contact-detail"><span class="contact-icon">☎</span><div><span class="contact-label">TELÉFONO</span><a href="tel:+524771234567">+52 477 123 4567</a></div></div>
+        <div class="contact-detail"><span class="contact-icon">⌖</span><div><span class="contact-label">UBICACIÓN</span><span>León, Guanajuato, México</span></div></div>
+      </div></div>
+      <div class="col-lg-5"><aside class="contact-side"><img src="{{ url_for('static', filename='img/servicio-asesoria.svg') }}" alt="Ilustración de acompañamiento y colaboración"><span class="eyebrow">PRIMER PASO</span><h3>Una conversación puede abrir caminos.</h3><p>Escríbenos y comparte tu idea. Te responderemos lo antes posible.</p><a href="mailto:hola@portalservicios.example" class="btn btn-light-custom">Enviar un correo <span aria-hidden="true">↗</span></a></aside></div>
+    </div>
+  </div>
+</section>
+{% endblock %}

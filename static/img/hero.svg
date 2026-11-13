@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" role="img" aria-labelledby="title desc">
+  <title id="title">Una idea se convierte en proyecto</title><desc id="desc">Ilustración de una libreta, una lámpara y formas abstractas.</desc>
+  <rect x="61" y="46" width="437" height="337" rx="35" fill="#163b4b"/>
+  <circle cx="414" cy="111" r="52" fill="#ee806b"/>
+  <circle cx="120" cy="306" r="49" fill="#45c3ad"/>
+  <path d="M92 342c43-61 86-79 130-54 42 23 72 24 106-11 38-39 83-38 140 7v74H92z" fill="#1d4c5a"/>
+  <rect x="179" y="133" width="216" height="189" rx="16" fill="#f8f6ef" transform="rotate(-5 179 133)"/>
+  <rect x="193" y="150" width="183" height="157" rx="10" fill="#fffdf7" transform="rotate(-5 193 150)"/>
+  <path d="M228 195l20 20 38-44" fill="none" stroke="#218c7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+  <path d="M226 243h113M226 265h88" fill="none" stroke="#d3dfd9" stroke-linecap="round" stroke-width="8"/>
+  <path d="M370 104c0-25 20-45 45-45s45 20 45 45c0 16-8 26-18 37-8 8-11 16-11 25h-34c0-9-3-17-11-25-10-11-16-21-16-37z" fill="#f0bf68"/>
+  <path d="M400 175h30v12c0 8-7 14-15 14s-15-6-15-14z" fill="#ed936e"/>
+  <path d="M415 29v-14M360 55l-11-11M470 55l11-11" stroke="#f8d797" stroke-linecap="round" stroke-width="6"/>
+  <path d="M112 110l7 16 17 2-13 11 4 17-15-9-15 9 4-17-13-11 17-2z" fill="#f0bf68"/>
+  <circle cx="469" cy="284" r="10" fill="#f0bf68"/><circle cx="145" cy="185" r="7" fill="#ee806b"/>
+</svg>

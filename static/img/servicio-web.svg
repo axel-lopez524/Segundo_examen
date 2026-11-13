@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 290" role="img" aria-labelledby="title">
+  <title id="title">Soluciones web</title>
+  <rect x="38" y="23" width="384" height="244" rx="22" fill="#e8eaf7"/>
+  <rect x="99" y="57" width="263" height="180" rx="13" fill="#fffdf7"/>
+  <path d="M99 77a13 13 0 0 1 13-13h237a13 13 0 0 1 13 13v16H99z" fill="#163b4b"/>
+  <circle cx="116" cy="79" r="4" fill="#ee806b"/><circle cx="131" cy="79" r="4" fill="#f0bf68"/><circle cx="146" cy="79" r="4" fill="#45c3ad"/>
+  <rect x="118" y="112" width="92" height="103" rx="9" fill="#dff1e9"/>
+  <circle cx="164" cy="148" r="20" fill="#45c3ad"/><path d="M140 194c4-17 13-25 24-25s20 8 24 25" fill="#218c7b"/>
+  <path d="M230 119h98M230 139h81" stroke="#c7d2d2" stroke-linecap="round" stroke-width="8"/>
+  <rect x="230" y="161" width="100" height="35" rx="8" fill="#218c7b"/>
+  <path d="M249 178h62" stroke="#fff" stroke-linecap="round" stroke-width="6"/>
+  <path d="M75 199h25M362 115h27M359 175h20" stroke="#ee806b" stroke-linecap="round" stroke-width="7"/>
+</svg>
