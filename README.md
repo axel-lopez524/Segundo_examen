@@ -47,14 +47,6 @@ python app.py
 
 Abre [http://127.0.0.1:5000](http://127.0.0.1:5000). La app ofrece Inicio, Compra, Salario, Temperatura, Empresa, Servicios y Contacto. Las calculadoras validan sus entradas y presentan los datos y resultados en la página.
 
-## Pruebas
-
-```bash
-python -m unittest -v test_app
-```
-
-Los casos incluyen el descuento de compra y el caso límite sin descuento, salario con y sin horas extra, conversión de temperatura y las siete páginas.
-
 ## Estructura
 
 ```text
@@ -62,7 +54,6 @@ app.py
 templates/       base.html, index.html, calculadoras y páginas informativas
 static/css/      Estilos
 static/img/      Ilustraciones SVG locales
-test_app.py      Pruebas automatizadas
 examen/          Explicación técnica y capturas de ejecución
 ```
 
