@@ -35,16 +35,16 @@ El **cliente** es el navegador y el **servidor** es el proceso Flask que escucha
 
 ## 4. Evidencias de ejecución
 
-Las imágenes de cada pantalla y de los resultados se guardan en [`evidencias/`](./evidencias/).
+Las imágenes de cada pantalla y de los resultados se guardan en [`capturas/`](./capturas/).
 
 | Pantalla / caso | Evidencia |
 |---|---|
-| Inicio y carrusel | [inicio.png](./evidencias/inicio.png) |
-| Compra con descuento | [compra-descuento.png](./evidencias/compra-descuento.png) |
-| Compra sin descuento | [compra-sin-descuento.png](./evidencias/compra-sin-descuento.png) |
-| Salario con horas extra | [salario-horas-extra.png](./evidencias/salario-horas-extra.png) |
-| Salario sin horas extra | [salario-sin-horas-extra.png](./evidencias/salario-sin-horas-extra.png) |
-| Conversión de temperatura | [temperatura.png](./evidencias/temperatura.png) |
-| Empresa | [empresa.png](./evidencias/empresa.png) |
-| Servicios | [servicios.png](./evidencias/servicios.png) |
-| Contacto | [contacto.png](./evidencias/contacto.png) |
+| Inicio y carrusel | [inicio.png](./capturas/inicio.png) |
+| Compra con descuento | [calculo_compra.png](./capturas/calculo_compra.png) |
+| Compra sin descuento | [compra_sin_descuento.png](./capturas/compra_sin_descuento.png) |
+| Salario con horas extra | [salario_semanal.png](./capturas/salario_semanal.png) |
+| Salario sin horas extra | [salario_sin_horas_extra.png](./capturas/salario_sin_horas_extra.png) |
+| Conversión de temperatura | [conversion_temperatura.png](./capturas/conversion_temperatura.png) |
+| Empresa | [empresa.png](./capturas/empresa.png) |
+| Servicios | [servicios.png](./capturas/servicios.png) |
+| Contacto | [contacto.png](./capturas/contacto.png) |
