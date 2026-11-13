@@ -67,4 +67,4 @@ examen/          Explicación técnica y capturas de ejecución
 ```
 
 La explicación, el diagrama Mermaid y la interpretación de cada cálculo están en [`examen/explicacion.md`](examen/explicacion.md).
-Las capturas de ejecución están en [`examen/capturas/`](examen/capturas/).
+Las capturas de ejecución están en [`examen/evidencias/`](examen/evidencias/).

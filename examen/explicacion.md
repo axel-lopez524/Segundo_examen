@@ -35,17 +35,17 @@ El **cliente** es el navegador y el **servidor** es el proceso Flask que escucha
 
 ## 4. Evidencias de ejecución
 
-Las imágenes de cada pantalla y de los resultados se guardan en [`capturas/`](./capturas/).
+Las imágenes de cada pantalla y de los resultados se guardan en [`evidencias/`](./evidencias/).
 
 | Pantalla / caso | Evidencia |
 |---|---|
-| Navegación común | [navegacion.png](./capturas/navegacion.png) |
-| Inicio y carrusel | [inicio.png](./capturas/inicio.png) |
-| Compra con descuento | [calculo_compra.png](./capturas/calculo_compra.png) |
-| Compra sin descuento | [compra_sin_descuento.png](./capturas/compra_sin_descuento.png) |
-| Salario con horas extra | [salario_semanal.png](./capturas/salario_semanal.png) |
-| Salario sin horas extra | [salario_sin_horas_extra.png](./capturas/salario_sin_horas_extra.png) |
-| Conversión de temperatura | [conversion_temperatura.png](./capturas/conversion_temperatura.png) |
-| Empresa | [empresa.png](./capturas/empresa.png) |
-| Servicios | [servicios.png](./capturas/servicios.png) |
-| Contacto | [contacto.png](./capturas/contacto.png) |
+| Navegación común | [navegacion.png](./evidencias/navegacion.png) |
+| Inicio y carrusel | [inicio.png](./evidencias/inicio.png) |
+| Compra con descuento | [calculo_compra.png](./evidencias/calculo_compra.png) |
+| Compra sin descuento | [compra_sin_descuento.png](./evidencias/compra_sin_descuento.png) |
+| Salario con horas extra | [salario_semanal.png](./evidencias/salario_semanal.png) |
+| Salario sin horas extra | [salario_sin_horas_extra.png](./evidencias/salario_sin_horas_extra.png) |
+| Conversión de temperatura | [conversion_temperatura.png](./evidencias/conversion_temperatura.png) |
+| Empresa | [empresa.png](./evidencias/empresa.png) |
+| Servicios | [servicios.png](./evidencias/servicios.png) |
+| Contacto | [contacto.png](./evidencias/contacto.png) |
